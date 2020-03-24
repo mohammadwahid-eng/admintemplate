@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="icon" href="favicon.ico">
+
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,700,900&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.0/min/dropzone.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/style.css">
+        <title>ampleadmin</title>
+    </head>
+    <body>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler">
+                <i data-feather="align-justify"></i>
+            </button>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" data-toggle="dropdown"> <img src="http://placehold.it/30x30" alt="" class="rounded-circle"></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="sidebar">
+            <h4>Menu</h4>
+            <ul>
+                <li class="active"><a href="#"><i data-feather="home"></i> <span>Dashboard</span></a></li>
+                <li>
+                    <a href="#collapse_users" data-toggle="collapse"><i data-feather="users"></i> <span>Users</span></a>
+                    <div class="collapse" id="collapse_users">
+                        <ul>
+                            <li><a href="#" class="active">Add New</a></li>
+                            <li><a href="#">Profile</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#"><i data-feather="sliders"></i> <span>Settings</span></a></li>
+            </ul>
+        </div>
+
+        <div class="wrapper">
+        	<div class="wrapper_inner">
+        		<div class="breadcrumb_area">
+	                <div class="container">
+	                	<div class="row align-items-center">
+		                    <div class="col-sm-6">
+		                        <h4 class="page_title">Dashboard</h4>
+		                    </div>
+		                    <div class="col-sm-6">
+		                        <ol class="breadcrumb">
+		                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+		                            <li class="breadcrumb-item"><a href="#">Library</a></li>
+		                            <li class="breadcrumb-item active" aria-current="page">Data</li>
+		                        </ol>
+		                    </div>
+		                </div>
+	                </div>
+	            </div>
+	            <div class="content_area">
+	            	<div class="container">
+	            		<div class="row">
+		            		<div class="col-md-8">
+                                <div class="card">
+	                                <div class="card-body">
+										<div class="form-group">
+											<label for="label">Label</label>
+											<input type="text" class="form-control" id="label">
+										</div>
+                                    </div>
+                                </div>
+		            		</div>
+		            		<div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+										<form action="/" method="post" enctype="multipart/form-data" class="dropzone" id="mediaDropzone"></form>
+										<div class="text-right mt-3">
+											<button class="btn btn-primary btn-sm">Publish</button>
+										</div>
+                                    </div>
+                                </div>
+		            		</div>
+		            	</div>
+	            	</div>
+	            </div>
+	            <div class="copyright_area">
+	            	<div class="container">
+	            		<div class="row">
+	            			<div class="col-md-6 text-md-left text-center">
+		            			<p class="m-0">Copyright &copy; 2020. All Rights Reserved.</p>
+		            		</div>
+		            		<div class="my-1 w-100 d-block d-sm-none"></div>
+	            			<div class="col-md-6 text-md-right text-center">
+		            			<p class="m-0">Developed By <a href="#" class="text-dark"><strong>Mohammad Wahid</strong></a></p>
+		            		</div>
+		            	</div>
+	            	</div>
+	            </div>
+        	</div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.0/min/dropzone.min.js"></script>
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

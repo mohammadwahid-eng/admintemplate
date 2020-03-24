@@ -1,0 +1,279 @@
+.bg-warning {
+  background-color: rgba(255, 193, 7, 0.1) !important; }
+
+*,
+*::before,
+*::after {
+  border-radius: 0px !important; }
+
+*,
+*:focus {
+  outline: none !important; }
+
+::-webkit-scrollbar {
+  width: 5px; }
+
+::-webkit-scrollbar-track {
+  background: #ffffff; }
+
+::-webkit-scrollbar-thumb {
+  background: #edf1f5; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #edf1f5; }
+
+.navbar-brand {
+  margin: 0;
+  padding: 12px; }
+
+html {
+  height: 100%; }
+
+body {
+  background-color: #edf1f5;
+  font-weight: 400;
+  font-size: 14px;
+  min-height: 100%; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.navbar {
+  padding: 0px 10px 0 0; }
+
+.card {
+  border: none; }
+
+.sidebar {
+  width: 220px;
+  margin-left: -220px;
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -ms-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+  position: fixed;
+  left: 0;
+  top: 54px;
+  height: 100%;
+  z-index: 9;
+  overflow-y: auto; }
+  .sidebar h4 {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    color: #54667a;
+    margin: 10px 15px; }
+  .sidebar ul li a {
+    display: block;
+    color: #54667a;
+    padding: 8px 15px;
+    -webkit-transition: all .35s ease;
+    -moz-transition: all .35s ease;
+    -ms-transition: all .35s ease;
+    -o-transition: all .35s ease;
+    transition: all .35s ease; }
+    .sidebar ul li a svg {
+      width: 16px; }
+    .sidebar ul li a span {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 5px; }
+    .sidebar ul li a:hover {
+      text-decoration: none;
+      color: #313131; }
+  .sidebar ul li:hover > a {
+    background-color: #edf1f5; }
+  .sidebar ul li.active > a {
+    background-color: #edf1f5; }
+  .sidebar ul li.active ul {
+    background-color: #54667a;
+    padding: 5px 0px; }
+    .sidebar ul li.active ul li a {
+      color: #ffffff;
+      opacity: .8;
+      padding: 3px 15px; }
+      .sidebar ul li.active ul li a:hover {
+        background-color: transparent;
+        color: #ffffff; }
+    .sidebar ul li.active ul li .active {
+      opacity: 1;
+      font-weight: 700; }
+
+.sidebar.show {
+  margin-left: 0; }
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding-top: 54px; }
+
+.breadcrumb_area {
+  background-color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .breadcrumb_area .page_title {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #313131; }
+  .breadcrumb_area .breadcrumb {
+    margin: 0 0 5px 0;
+    padding: 0;
+    background: transparent; }
+    .breadcrumb_area .breadcrumb .breadcrumb-item a {
+      color: #313131;
+      font-weight: 700; }
+
+.navbar-toggler {
+  border: none; }
+
+.wrapper.show::before {
+  content: '';
+  background: rgba(49, 49, 49, 0.5);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+
+.wrapper_inner {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.copyright_area {
+  padding: 15px;
+  background-color: #ffffff; }
+
+.content_area {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: justify;
+  position: relative;
+  min-height: calc(100% - 102px); }
+
+.table td, .table th {
+  vertical-align: middle; }
+.table .custom-control {
+  padding-left: 2rem; }
+.table .actions li {
+  display: inline; }
+  .table .actions li a {
+    cursor: pointer;
+    display: inline-block; }
+    .table .actions li a svg {
+      width: 18px; }
+.table .actions li + li {
+  margin-left: 15px; }
+
+.dropdown-menu {
+  position: absolute !important;
+  min-width: 13rem;
+  margin-top: 4px; }
+  .dropdown-menu .dropdown-item {
+    font-size: 14px;
+    padding: 5px 15px; }
+    .dropdown-menu .dropdown-item:hover {
+      text-decoration: underline; }
+
+.pagination {
+  margin-top: 15px; }
+
+.alert-dismissible .close {
+  padding: .53rem 1.25rem; }
+
+.close svg {
+  width: 18px; }
+
+#mediaDropzone {
+  border-style: dashed;
+  display: grid;
+  align-items: center;
+  justify-content: center; }
+
+label {
+  margin-bottom: 3px;
+  font-weight: 700; }
+
+.auth_area {
+  min-width: 380px;
+  background-color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px; }
+  .auth_area .custom-control-label {
+    margin-bottom: 0px; }
+    .auth_area .custom-control-label:before {
+      margin-top: -1px; }
+  .auth_area .auth_nav {
+    margin-top: 20px;
+    margin-left: -25px;
+    margin-right: -25px; }
+    .auth_area .auth_nav a {
+      padding: 10px;
+      display: block;
+      text-align: center;
+      width: 50%;
+      float: left;
+      border-color: rgba(49, 49, 49, 0.1);
+      border-style: solid;
+      border-width: 1px 0 1px 1px;
+      color: #313131; }
+      .auth_area .auth_nav a:hover {
+        color: #313131; }
+      .auth_area .auth_nav a:last-child {
+        border-right-width: 1px; }
+
+.invalid-feedback {
+  font-size: 90%;
+  margin-top: 3px; }
+
+.swal-modal .swal-text {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700; }
+.swal-modal .swal-button {
+  padding: 6px 20px; }
+  .swal-modal .swal-button:focus {
+    box-shadow: none; }
+
+@media (min-width: 576px) {
+  .breadcrumb_area .page_title {
+    margin: 0; }
+  .breadcrumb_area .breadcrumb {
+    justify-content: flex-end;
+    margin: 0; } }
+@media (min-width: 992px) {
+  .sidebar {
+    margin-left: 0px; }
+
+  .wrapper {
+    padding-left: 220px; }
+
+  .breadcrumb_area {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .copyright_area {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .content_area {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+/*# sourceMappingURL=style.css.map */
